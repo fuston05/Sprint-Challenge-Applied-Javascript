@@ -26,6 +26,11 @@ function Header() {
         date.classList.add('date');
         temp.classList.add('temp');
 
+        //add data
+        date.textContent= 'MARCH 28, 2019';
+        temp.textContent= '98°';
+        heading.textContent= 'Lambda Times';
+
         return header;
 }//end func
 
